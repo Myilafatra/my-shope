@@ -1,0 +1,217 @@
+.container{
+  border: 1px solid black;
+  width: 350px !important;
+  background-color: lightgrey;
+  margin-top: 30px;
+  padding-bottom: 50px; 
+}
+#bg{
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.coms{
+  margin-top: 20px;
+}
+.commentaire{
+  margin-top: 10px;
+  margin-right: 200px;
+}
+hr{
+  margin-top: 20px !important;
+}
+
+.prod{
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.block{
+  margin-top: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+
+}
+.colonne{
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: lightgrey;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.close {
+  background-color:white ;
+  width: 300px;
+  text-align: right;
+  color: red !important;
+}
+.com{
+  color: red !important;
+  margin-left: 10px !important;
+  width: 100px;
+}
+.input1{
+  border-radius: 5px;
+}
+.nom{
+  margin-top: 20px
+}
+ .table { 
+  margin-left: 300px !important;
+  
+} 
+.form{
+
+  margin-top:  100px; 
+}
+/* th { 
+  border-width:1px;
+  border-style:solid; 
+  background-color:rgb(23, 192, 207);
+  width:15%;
+} */
+ td { 
+  margin-right: 150px;
+} 
+.total{
+  margin-left: 550px;
+  margin-top: 20px;
+}
+
+label{
+  margin: 10px
+}
+
+.ajout{
+  width: 310px;
+  margin-top: 20px;
+}
+.erreur{
+  color: red;
+  margin-left: 50px; 
+}
+.erreur1{
+  color: red;
+}
+.prix{
+  /* margin-top:50px;  */
+  margin-left:  350px!important;
+  font-size: 20px;
+}
+.edit{
+  background-color: rgb(154, 151, 156);
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+  height: 150px;
+}
+.input{
+  margin-top: 30px;
+}
+.boutton1{
+  margin-top: 30px;
+  margin-right: 80px;
+  border-radius:8px;
+  background-color: rgb(223, 154, 189);
+}
+.boutton2{
+  margin-top: 30px;
+  border-radius:8px;
+  background-color:rgb(223, 154, 189);
+}
+.boutton3{
+  margin-right: 80px;
+  border-radius:8px;
+  background-color: rgb(223, 154, 189);
+}
+.boutton4{
+  border-radius:8px;
+  background-color:rgb(223, 154, 189);
+}
+.ariary{
+  border-style: solid;
+  width: 200px;
+  margin-left: 450px;
+  margin-top: 20px;
+}
+ 
+/* input[type="file"] {
+  display: 0;
+ } 
+ 
+#file-input{
+  padding: 10px;
+  background: rgb(88, 85, 85); 
+  display: table;
+  color: #fff;
+  width: 100px ;
+  height: 50px;
+  border-radius: 2px;
+  text-align: center;
+  margin-left: 130px;
+  margin-top: 10px;
+  padding-top: 5px!important;
+  line-height: 30px;
+} */
+
+.block {
+  overflow: hidden;
+  position: relative; 
+  line-height: 1.2em;
+  /* max-height = line-height (1.2) * lines max number (3) */
+  max-height: 3.6em;
+  width: 330px;
+  /* fix problem when last visible word doesn't adjoin right side  */
+  text-align: justify;
+  /* place for '...'*/
+  margin-right: -1em;
+  padding-right: 1em;
+}
+/* create the ... */
+.block:before {
+  /* points in the end */
+  content: '...';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of block */
+  right: 0;
+  bottom: 0;
+}
+/* hide ... if we have text, which is less than or equal to max lines */
+.block:after {
+  /* points in the end */
+  content: '';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of text */
+  right: 0;
+  /*set width and height */
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  /* bg color = bg color under block */
+  background: lightgrey;
+
+}
+.file { 
+  position: relative; 
+  height: 30px; 
+  width: 50px; }
+.file>input[type="file"] { 
+  position: absoulte; 
+  opacity: 0; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0 }
+.file>label { 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  left: 0; 
+  bottom: 0; 
+  background-color: #666; 
+  color: #fff; 
+  line-height: 30px; 
+  text-align: center; 
+  cursor: pointer; }
+  
